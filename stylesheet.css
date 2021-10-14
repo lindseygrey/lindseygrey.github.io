@@ -1,0 +1,54 @@
+body {
+  background-color: darkseagreen;
+}
+
+h1 {
+  font-family: Georgia;
+  color: BlanchedAlmond;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia;
+  color: darkslateblue;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  line-height: 1.8;
+  text-indent: 45px;
+}
+
+ul {
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 1.8;
+  text-indent: 45px;
+}
+
+img {
+   float:right;width:284px;height:200px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
