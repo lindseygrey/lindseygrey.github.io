@@ -1,41 +1,56 @@
 body {
-  background-color: darkseagreen;
+  background-color:darkseagreen;
 }
 
 h1 {
-  font-family: Georgia;
-  color: BlanchedAlmond;
-  text-align: center;
+  font-family: verdana;
+  color: Black;
+  text-align: right;
+  margin-right: 75px
 }
 
 h2 {
   font-family: Georgia;
-  color: darkslateblue;
-  text-align: center;
+  color: Black;
+  text-align: left;
+  margin-left: 150px
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-  line-height: 1.8;
-  text-indent: 45px;
+h3 {
+  font-family: Georgia;
+  color: Black;
+  text-align: left;
+  margin-left: 25px
 }
 
-ul {
-  font-family: verdana;
-  font-size: 15px;
-  line-height: 1.8;
-  text-indent: 45px;
+
+h4 {
+  font-family: Georgia;
+  color: Black;
+  text-align: left;
+  margin-left: 25px
 }
+
+li {
+  color: black;
+  font-family: Georgia;
+}
+
+
 
 img {
-   float:right;width:284px;height:200px;
+   float:right;width:426px;height:300px;
+   margin-top: -50px; /* tried negatives out and it moved the image where I wanted */
+   margin-bottom: 100px;
+   margin-right: 75px;
+   margin-left: 75px;
+   border-style: solid;
 }
 
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: green;
 }
 
 /* visited link */
@@ -45,10 +60,30 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: white;
 }
 
 /* selected link */
 a:active {
   color: blue;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;   
+    overflow: hidden;
+    background-color: #2C2f33;/* This is discord grey because I like it  https://www.onlinepalette.com/discord/#:~:text=Discord%20uses%20the%20colors%20blurple,88%2C%20101%2C%20242).*/
+}
+
+.navItem {
+   float: left;
+   font-size: 20px;
+   padding: 15px;
+   margin-left:20px;
+   text-align: center;
+    }
+
+.navLink {
+    font-family: verdana;
+    }
