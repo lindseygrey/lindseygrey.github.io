@@ -1,3 +1,6 @@
+/* stylesheet for index.html */
+/* Last updated October 20th */
+
 body {
   background-color:darkseagreen;
 }
@@ -17,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-family: Georgia;
+  font-family: Georgia;/* https://www.w3schools.com/css/css_text.asp */
   color: Black;
   text-align: left;
   margin-left: 25px
@@ -49,6 +52,8 @@ img {
 
 
 /* unvisited link */
+/* https://www.w3schools.com/css/css_link.asp */
+
 a:link {
   color: green;
 }
@@ -65,8 +70,9 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: BlanchedAlmond;
 }
+
 
 .navbar {
     list-style-type: none;
