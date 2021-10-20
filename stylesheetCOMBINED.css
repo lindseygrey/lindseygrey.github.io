@@ -1,0 +1,128 @@
+/* Combined Stylesheet for Both pages */
+/* Last updated October 20th */
+
+/* Both pages, doesn't need to be updated */
+body {  
+  background-color:darkseagreen;
+}
+
+h1 {
+  font-family: verdana;
+  color: Black;
+  text-align: right;
+  margin-right: 75px
+}
+
+h2 {
+  font-family: Georgia;
+  color: Black;
+  text-align: left;
+  margin-left: 150px
+}
+
+h3 {
+  font-family: Georgia;/* https://www.w3schools.com/css/css_text.asp */
+  color: Black;
+  text-align: left;
+  margin-left: 25px
+}
+
+
+h4 {
+  font-family: Georgia;
+  color: Black;
+  text-align: left;
+  margin-left: 25px
+}
+
+h5 { /* Header 1 becomes header 5 */
+  font-family: Georgia;
+  color: BlanchedAlmond;
+  text-align: center;
+  font-size: 15px
+}
+
+h6 { /* using a header as footnote text, Header 2 becomes header 6*/
+  font-family: "Times New Roman";
+  color: black ;
+  text-align: left;
+  font-size: 12px
+}
+
+/* Did not use paragrah on page one so copied over */
+p {
+  font-family: verdana;/* https://www.w3schools.com/css/css_text.asp */
+  font-size: 14px;
+  line-height: 1.8;
+  text-indent: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+	
+}
+
+
+li { /* lists on index.html */
+  color: black;
+  font-family: Georgia;
+}
+
+.list2 { /* lists on Plover Page */
+  font-family: verdana;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-left: 50px;
+  margin-right: 25px;
+	
+}
+
+img { /* images on index.html */
+   float:right;width:426px;height:300px;
+   margin-top: -50px; /* tried negatives out and it moved the image where I wanted */
+   margin-bottom: 100px;
+   margin-right: 75px;
+   margin-left: 75px;
+   border-style: solid;
+}
+
+img.plover { /* images on Plover Page */
+   width:426px;
+   height:300px;
+   margin-top: 10px; 
+   margin-bottom: 10px;
+   margin-right: 20px;
+   margin-left: 20px;
+   border-style: solid;
+   border-color: BlanchedAlmond;
+}
+
+img.chick {  /* last picture gets its own formatting*/
+   border-style: solid;
+   border-color: BlanchedAlmond;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: auto;   /* https://www.w3schools.com/howto/howto_css_image_center.asp */
+}
+
+
+
+/* https://www.w3schools.com/css/css_link.asp */
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: BlanchedAlmond;
+}
