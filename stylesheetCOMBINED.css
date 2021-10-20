@@ -94,7 +94,7 @@ img { /* images on index.html */
    margin-left: 20px;
    border-style: solid;
    border-color: BlanchedAlmond;
-   float: none;
+   float: none; /* Hopefully this makes the images display properly */
    display:inline-block;
 }
 
