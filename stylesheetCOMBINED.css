@@ -104,6 +104,7 @@ img { /* images on index.html */
    display: block;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 10px; /*hopefully the last fix to make sure the text doesnt overlap with the picture */
    float: none;
    width: auto;   /* https://www.w3schools.com/howto/howto_css_image_center.asp */
 }
